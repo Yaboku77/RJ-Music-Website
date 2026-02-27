@@ -364,7 +364,7 @@ export default function App() {
                   <li className="flex items-center gap-2 text-slate-300"><ChevronRight className="w-4 h-4 text-indigo-500" /> Tap album art for lyrics</li>
                   <li className="flex items-center gap-2 text-slate-300"><ChevronRight className="w-4 h-4 text-indigo-500" /> Long press to reorder queue</li>
                 </ul>
-                <Button variant="outline" icon={Github}>View on GitHub</Button>
+                <Button href="https://github.com/Yaboku77/RJ-Music" variant="outline" icon={Github}>View on GitHub</Button>
               </div>
 
               <div className="w-full md:w-1/2">
