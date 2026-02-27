@@ -112,7 +112,7 @@ export default function App() {
             <a href="#features" className="text-lg font-medium hover:text-indigo-400" onClick={() => setMobileMenuOpen(false)}>Features</a>
             <a href="#listen-together" className="text-lg font-medium text-fuchsia-400" onClick={() => setMobileMenuOpen(false)}>Live Sync</a>
             <a href="#interface" className="text-lg font-medium hover:text-indigo-400" onClick={() => setMobileMenuOpen(false)}>Interface</a>
-            <Button variant="primary" className="w-full mt-2" icon={Download}>Download APK</Button>
+            <Button href="https://github.com/Yaboku77/RJ-Music/releases" variant="primary" className="w-full mt-2" icon={Download}>Download APK</Button>
           </div>
         )}
       </nav>
