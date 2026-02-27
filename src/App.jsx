@@ -143,7 +143,7 @@ export default function App() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                  <Button icon={Download} variant="primary" className="w-full sm:w-auto">Download APK</Button>
+                  <Button icon={Download} variant="primary" className="w-full sm:w-auto" href="https://github.com/Yaboku77/RJ-Music/releases">Download APK</Button>
                   <Button icon={Github} variant="secondary" href="https://github.com/Yaboku77/RJ-Music" className="w-full sm:w-auto">Source Code</Button>
                 </div>
                 <p className="mt-4 text-sm text-slate-500 flex items-center justify-center lg:justify-start gap-1">
@@ -424,7 +424,7 @@ export default function App() {
 
           <div className="flex flex-wrap justify-center gap-8 text-sm text-slate-400">
             <a href="#" className="hover:text-indigo-400 transition-colors">Releases</a>
-            <a href="#" className="hover:text-indigo-400 transition-colors">Privacy Policy</a>
+            <a href="https://github.com/Yaboku77/RJ-Music/releases" className="hover:text-indigo-400 transition-colors">Privacy Policy</a>
             <a href="https://github.com/Yaboku77/RJ-Music" className="hover:text-indigo-400 transition-colors flex items-center gap-1"><Github className="w-4 h-4" /> GitHub</a>
           </div>
 
