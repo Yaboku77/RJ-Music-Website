@@ -98,7 +98,7 @@ export default function App() {
               <Radio className="w-4 h-4 animate-pulse" /> Live Sync
             </a>
             <a href="#interface" className="text-sm font-medium hover:text-white transition-colors">Interface</a>
-            <Button variant="primary" className="!px-5 !py-2.5 text-sm" icon={Download}>Download App</Button>
+            <Button href="https://github.com/Yaboku77/RJ-Music/releases" variant="primary" className="!px-5 !py-2.5 text-sm" icon={Download}>Download App</Button>
           </div>
 
           <button className="md:hidden text-slate-300 hover:text-white" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
