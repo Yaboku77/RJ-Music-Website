@@ -423,8 +423,8 @@ export default function App() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-8 text-sm text-slate-400">
-            <a href="#" className="hover:text-indigo-400 transition-colors">Releases</a>
-            <a href="https://github.com/Yaboku77/RJ-Music/releases" className="hover:text-indigo-400 transition-colors">Privacy Policy</a>
+            <a href="https://github.com/Yaboku77/RJ-Music/releases" className="hover:text-indigo-400 transition-colors">Releases</a>
+            <a href="#" className="hover:text-indigo-400 transition-colors">Privacy Policy</a>
             <a href="https://github.com/Yaboku77/RJ-Music" className="hover:text-indigo-400 transition-colors flex items-center gap-1"><Github className="w-4 h-4" /> GitHub</a>
           </div>
 
